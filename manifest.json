@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Daydream Prompt Automator",
+  "version": "1.0",
+  "description": "Automate prompt submissions to Daydream Playground",
+  "permissions": ["activeTab", "scripting"],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    }
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "host_permissions": [
+    "https://playground.daydream.live/*",
+    "https://app.daydream.live/*"
+  ]
+}
