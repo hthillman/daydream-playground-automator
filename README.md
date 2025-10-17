@@ -4,9 +4,8 @@ A Chrome browser extension to automate prompt submissions to Daydream Playground
 
 ## Features
 
-- Submit single prompts instantly
 - Run sequences of prompts with customizable delays
-- Simple and intuitive interface
+   - Up next: adding IPAdapters, prompt blending, etc
 - Works directly with Daydream Playground
 
 ## Installation
@@ -21,7 +20,6 @@ A Chrome browser extension to automate prompt submissions to Daydream Playground
 
 1. Navigate to https://playground.daydream.live
 2. Click the extension icon in your toolbar
-3. **Single Prompt**: Enter a prompt in the first text area and click "Submit Single"
 4. **Prompt Sequence**: Enter multiple prompts (one per line) in the second text area
 5. Set the delay between prompts (in seconds)
 6. Click "Run Sequence" to execute them automatically
